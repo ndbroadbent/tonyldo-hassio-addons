@@ -1,2 +1,2 @@
-ttlockio == 0.2.1
+git+https://github.com/ndbroadbent/ttlockio@revert_toml_changes
 paho-mqtt == 1.6.1
