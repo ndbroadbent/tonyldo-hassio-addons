@@ -30,6 +30,9 @@ LABEL \
 # Copy root filesystem
 COPY rootfs /
 
+# Git required to install my fork
+RUN apk update && apk upgrade && apk add --no-cache git
+
 # Install requirements
 RUN pip3 install -r /tmp/requirements.txt
 
